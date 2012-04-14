@@ -17,6 +17,8 @@ Whenever you start developing, start the building script with the following comm
 
 The building script will automatically compile all the files in the `src/modules` directory into the `lib/bundle.js` file whenever a file is saved to disk.
 
+If you want seperate code to be build for client and server then put that code in either the `src/modules/client` or `src/modules/server`
+
 If you want to change the source folder, you can change it in the `Makefile` file. If you want to change the destination file and directory, you can also do it in the `Makefile` file.
 
 By default, you:
