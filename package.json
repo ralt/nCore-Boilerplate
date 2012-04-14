@@ -1,0 +1,21 @@
+{
+    "name": "nCore-boilerplate",
+    "version": "0.0.1",
+    "description": "Boilerplate code for nCore",
+    "keywords": [],
+    "author": "Florian Margaine <florian@margaine.com>",
+    "main": "index",
+    "dependencies": {
+        "ncore": "1.3.9",
+        "pd": "0.6.3"
+    },
+    "engines": {
+        "node": "0.6.x"
+    },
+    "scripts": {
+        "test": "make test"
+    },
+    "devDependencies": {
+        "mocha": "1.0"
+    }
+}
